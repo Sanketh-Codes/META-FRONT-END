@@ -17,3 +17,5 @@ web hosting ---> In order to host the website we dont need to have a dedicated d
 			1) Shared sercvice --> very cheap because many web pages will be stored and the speed might be low because the CPU,hardware might be shared for may web pages.
 			2) Dedicated service --> compartively high because there will be seperate CPU,hardware and has high speed. 
 			3) cloud servive --> pretty much used as we pay based on the users numbers.
+
+Anything we search in the web browser will use a http protocol inorder to commnicate with the web server.
