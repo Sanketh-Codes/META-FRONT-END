@@ -1,0 +1,19 @@
+Web server ---- > Contains all the web pages and typically these are stored in the data centers.
+web browser ----> This is the place which we use to search for anything for example edge, chrome, etc
+URL(Uniform resourse locator) ----> The one which we type at the address bar of the web browser.
+				eg - htttps://www.google.com (Here google is the domain name,https is the protocal name https refers to the hyper text transfer protocol)
+		(There will also be the file path which makes server to identify that particular file for that domain. By default that will be index.php or index.html)
+
+How we actually get the information we need?
+=============================================
+	1) First ones we open the browser(chrome) and search for the address then the web browser starts communicating with the web server and search for that domain and returns the web page(typically html) for that domain.
+	2) Ones our web browser receives all the information from the web server, web brower will process to that received web page from top to bottom and renders for the user to see the response.
+
+Note- If the user search for specific data then the URL carries that daa to web server and web server then communicate with database to get specific data which is already connected and sends the response to the web browser
+
+
+web hosting ---> In order to host the website we dont need to have a dedicated data center, we just need to pay for the companies who provide the hosting wwervice.
+		Types of services
+			1) Shared sercvice --> very cheap because many web pages will be stored and the speed might be low because the CPU,hardware might be shared for may web pages.
+			2) Dedicated service --> compartively high because there will be seperate CPU,hardware and has high speed. 
+			3) cloud servive --> pretty much used as we pay based on the users numbers.
