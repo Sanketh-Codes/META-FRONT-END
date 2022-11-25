@@ -2,3 +2,18 @@ difference btw <b> and <strong> ?
     <b>(bold Tag)----> is used when we need to draw the user attention
     <strong>Tag -----> is used when we want to mention something is so important in the text.
 NOTE====> On screen there will be no difference in appearance only difference is the context of using.
+
+1) HTML(Hyper Text Markup Language)----> This is the standard language used by the web browser to structure the content.
+2) HTML consists of elements
+    element is made of start Tag + content + end Tag    
+    example - <p>WEb development is love</p>
+    ==> here <p> is the sart Tag, "Web development is love" is content and </p> is the closing Tag
+    **NOTE**----> some elements doesnt have the content and closing tag example- <br>(Line break)
+    **NOTE**----> We cannot see the tags in the browser but browser uses the tags and understand how the content between those tags should be displayed 
+
+    HTML structure
+    1)<DOCTTPE !HTML> ---> This specifies the web browser that the document belongs to HTML 5
+    2)<HTML></HTML> -----> This is the root element of the HTML (any tags should be inside this tag)
+    3)<HEAD></HEAD> -----> This is the tag where we include the meta data 
+    4)<TITLE></TITLE> ---> This is used to give the title to the page that is seen at the top tab(should be written inside the HEAD tag)
+    5)<BODY></BODY> -----> Any content that is displayed on screen should be mentioned inside this tag.
